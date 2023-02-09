@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --otherblue: #2874A6;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -6074,6 +6075,7 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+/* Faixa lateral */
 .bg-primary {
   background-color: #bd5d38 !important;
 }
@@ -9776,6 +9778,7 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+/*COUTINHO #bd5d38 */
 .text-primary {
   color: #bd5d38 !important;
 }

@@ -11,7 +11,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --otherblue: #2874A6;
+  /* linkedin color #0a66c2 */
+  /* vinho lindao #7B241C  */
+  /* azul discreto #1B4F72 */
+  /* cinza discreto #616A6B */
+  --maincolor: #1B4F72 ;
+  --maincolorhover: #343a40 ;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -160,12 +165,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: var(--maincolor);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: var(--maincolorhover);
   text-decoration: underline;
 }
 
@@ -6077,7 +6082,7 @@ a.close.disabled {
 
 /* Faixa lateral */
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: var(--maincolor) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9780,7 +9785,7 @@ button.bg-dark:focus {
 
 /*COUTINHO #bd5d38 */
 .text-primary {
-  color: #bd5d38 !important;
+  color: var(--maincolor) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10082,7 +10087,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color:  var(--maincolor) ;
 }
 
 .dev-icons {
